@@ -16,8 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
-from polls.views import show_subjects, show_teachers
+from polls import views
 
 urlpatterns = [
     path('', views.show_subjects),
